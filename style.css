@@ -85,15 +85,35 @@ footer {
     background-color: #333333;
     color: #999999;
     width: 800px;
-    height: 40px;
+    height: 60px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     display: flex;
     flex-direction: row;
-    align-items: end;
+
 }
 
 .rodape {
     margin-bottom: 6px;
     margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-around;
+}
+
+.rodape-telefone {
+    margin: 6px;
+    padding: 6px;
+}
+
+.rodape_endereco {
+    margin: 6px;
+    padding: 6px;
+}
+
+.rodape_socials {
+    margin: 6px;
+    padding: 6px;
+
 }
